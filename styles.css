@@ -640,6 +640,7 @@ img {
         font-size: 1rem;
     }
 }
+.fa
 
 .package-features li::before {
   content: "✓";
@@ -661,7 +662,6 @@ img {
 .package-content .btn {
     margin-top: auto; /* Stick button to bottom */
 }
-
 
 /* Contact Section */
 .contact {
