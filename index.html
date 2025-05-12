@@ -4,37 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- SEO: Title Tag - Ключевой элемент для SEO -->
-    <title>Разработка сайтов WebCraft: Быстрые и легкие решения | Тарифы и
-      Цены</title>
+    <title>Разработка сайтов WebCraft: Быстрые и легкие решения | Тарифы и Цены</title>
     <!-- SEO: Meta Description - Важное описание для поисковых систем -->
-    <meta name="description"
-      content="WebCraft предлагает профессиональную разработку быстрых и легких сайтов по доступным ценам. Выберите оптимальный пакет для вашего бизнеса: от базового сайта до комплексного решения. Свяжитесь с нами для консультации!">
+    <meta name="description" content="WebCraft предлагает профессиональную разработку быстрых и легких сайтов по доступным ценам. Выберите оптимальный пакет для вашего бизнеса: от базового сайта до комплексного решения. Свяжитесь с нами для консультации!">
     <!-- SEO: Keywords (менее важны сейчас, но не повредят) -->
-    <meta name="keywords"
-      content="разработка сайтов, создать сайт, веб-разработка, легкие сайты, быстрые сайты, тарифы на сайты, WebCraft, заказать сайт, сайт для бизнеса">
-    <!-- SEO: Canonical Tag (если есть дублирующиеся страницы) -->
-    <!-- <link rel="canonical" href="https://www.yourdomain.com/pricing-landing-page" /> -->
+    <meta name="keywords" content="разработка сайтов, создать сайт, веб-разработка, легкие сайты, быстрые сайты, тарифы на сайты, WebCraft, заказать сайт, сайт для бизнеса">
     <!-- SEO: Open Graph Tags (для социальных сетей) -->
-    <meta property="og:title"
-      content="Разработка сайтов WebCraft: Быстрые и легкие решения">
-    <meta property="og:description"
-      content="WebCraft предлагает профессиональную разработку быстрых и легких сайтов по доступным ценам.">
-    <meta property="og:image"
-      content="https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
-    <!-- Замените на ваше изображение -->
-    <meta property="og:url"
-      content="https://www.yourdomain.com/pricing-landing-page">
-    <!-- Замените на ваш URL -->
+    <meta property="og:title" content="Разработка сайтов WebCraft: Быстрые и легкие решения">
+    <meta property="og:description" content="WebCraft предлагает профессиональную разработку быстрых и легких сайтов по доступным ценам.">
+    <meta property="og:image" content="https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+    <meta property="og:url" content="https://www.yourdomain.com/pricing-landing-page">
     <meta property="og:type" content="website">
     <!-- SEO: Twitter Card Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title"
-      content="Разработка сайтов WebCraft: Быстрые и легкие решения">
-    <meta name="twitter:description"
-      content="WebCraft предлагает профессиональную разработку быстрых и легких сайтов по доступным ценам.">
-    <meta name="twitter:image"
-      content="https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
-    <!-- Замените на ваше изображение -->
+    <meta name="twitter:title" content="Разработка сайтов WebCraft: Быстрые и легкие решения">
+    <meta name="twitter:description" content="WebCraft предлагает профессиональную разработку быстрых и легких сайтов по доступным ценам.">
+    <meta name="twitter:image" content="https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
 
     <link rel="stylesheet" href="styles.css">
   </head>
@@ -42,15 +27,13 @@
     <header class="header">
       <div class="container">
         <div class="logo">
-          <img
-            src="./images/logo.svg"
-            alt="Логотип WebCraft" class="logo-icon">
+          <img src="./images/logo.svg" alt="Логотип WebCraft" class="logo-icon">
           <span class="logo-text">WebCraft</span>
         </div>
 
         <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox">
         <label for="nav-toggle" class="nav-toggle-label">
-          <span></span> <!-- Hamburger line -->
+          <span></span>
         </label>
 
         <nav class="nav">
@@ -58,62 +41,45 @@
           <a href="#pricing">Цены</a>
           <a href="#faq">ЧаВо</a>
           <a href="#contact">Контакты</a>
-          <button class="btn btn-primary btn-mobile-contact">Связаться с
-            нами</button>
+          <button class="btn btn-primary btn-mobile-contact" data-modal-toggle="contact-modal">Связаться с нами</button>
         </nav>
-        <button class="btn btn-primary btn-desktop-contact">Связаться с
-          нами</button>
+        <button class="btn btn-primary btn-desktop-contact" data-modal-toggle="contact-modal">Связаться с нами</button>
       </div>
     </header>
 
     <main>
-      <section id="hero" class="hero"> <!-- SEO: Добавлен id для hero -->
+      <section id="hero" class="hero">
         <div class="container">
           <div class="hero-content">
-            <h1>Создайте <strong>идеальный сайт</strong> с нашими
-              <strong>персональными</strong> пакетами</h1>
-            <p>Быстрые, легкие и красивые сайты, адаптированные под нужды вашего
-              бизнеса. Выберите пакет, соответствующий вашим целям и
-              бюджету.</p>
+            <h1>Создайте <strong>идеальный сайт</strong> с нашими <strong>персональными</strong> пакетами</h1>
+            <p>Быстрые, легкие и красивые сайты, адаптированные под нужды вашего бизнеса. Выберите пакет, соответствующий вашим целям и бюджету.</p>
             <div class="hero-buttons">
               <a href="#pricing" class="btn btn-primary">Посмотреть пакеты</a>
-              <a href="#contact" class="btn btn-outline">Связаться с нами</a>
+              <a href="#contact" class="btn btn-outline" data-modal-toggle="contact-modal">Связаться с нами</a>
             </div>
           </div>
           <div class="hero-image">
-            <img
-              src="./images/1.webp"
-              alt="Профессиональная разработка веб-сайтов для бизнеса">
-            <!-- SEO: Улучшен alt текст -->
+            <img src="./images/1.webp" alt="Профессиональная разработка веб-сайтов для бизнеса">
           </div>
         </div>
       </section>
 
-      <!-- SEO: Добавлен id для features, если этот раздел будет существовать -->
-      <!-- <section id="features" class="features"> ... </section> -->
-
       <section id="pricing" class="pricing">
         <div class="container">
           <h2>Выберите <strong>подходящий пакет</strong> для вашего сайта</h2>
-          <p class="section-desc">Выберите идеальный пакет в соответствии с
-            вашими потребностями и бюджетом. Каждый пакет включает различные
-            контентные блоки для создания вашего идеального сайта.</p>
+          <p class="section-desc">Выберите идеальный пакет в соответствии с вашими потребностями и бюджетом. Каждый пакет включает различные контентные блоки для создания вашего идеального сайта.</p>
 
           <div class="pricing-grid">
             <div class="package-card">
               <div class="package-image">
-                <img
-                  src="./images/2.webp"
-                  alt="Базовый пакет разработки сайта">
-                <!-- SEO: Улучшен alt текст -->
+                <img src="./images/2.webp" alt="Базовый пакет разработки сайта">
                 <div class="package-title">
                   <h3>Базовый сайт</h3>
                   <p>Базовый пакет</p>
                 </div>
               </div>
               <div class="package-content">
-                <p>Идеально подходит для малого бизнеса, желающего заявить о
-                  себе в интернете</p>
+                <p>Идеально подходит для малого бизнеса, желающего заявить о себе в интернете</p>
                 <div class="package-price">
                   <span>10,000 ₽</span>
                   <span>разовый платеж</span>
@@ -124,25 +90,21 @@
                   <li>Быстрая настройка и запуск</li>
                   <li>Базовая SEO-оптимизация</li>
                 </ul>
-                <button class="btn btn-secondary">Хочу такой сайт</button>
+                <button class="btn btn-secondary" data-modal-toggle="contact-modal" data-package="essential">Хочу такой сайт</button>
               </div>
             </div>
 
             <div class="package-card popular">
               <div class="popular-tag">Самый популярный</div>
               <div class="package-image">
-                <img
-                  src="./images/3.jpeg"
-                  alt="Стандартный пакет разработки бизнес-сайта">
-                <!-- SEO: Улучшен alt текст -->
+                <img src="./images/3.jpeg" alt="Стандартный пакет разработки бизнес-сайта">
                 <div class="package-title">
                   <h3>Бизнес-сайт</h3>
                   <p>Стандартный пакет</p>
                 </div>
               </div>
               <div class="package-content">
-                <p>Идеально для растущего бизнеса с большими потребностями в
-                  контенте</p>
+                <p>Идеально для растущего бизнеса с большими потребностями в контенте</p>
                 <div class="package-price">
                   <span>18,000 ₽</span>
                   <span>разовый платеж</span>
@@ -152,27 +114,22 @@
                   <li>Расширенные контактные формы</li>
                   <li>Ограниченные по времени предложения и акции</li>
                   <li>Демонстрация преимуществ бизнеса</li>
-                  <li>Дополнительный призыв к действию для улучшения
-                    конверсии</li>
+                  <li>Дополнительный призыв к действию для улучшения конверсии</li>
                 </ul>
-                <button class="btn btn-primary">Хочу такой сайт</button>
+                <button class="btn btn-primary" data-modal-toggle="contact-modal" data-package="standard">Хочу такой сайт</button>
               </div>
             </div>
 
             <div class="package-card">
               <div class="package-image">
-                <img
-                  src="./images/4.webp"
-                  alt="Премиум пакет разработки полнофункционального сайта">
-                <!-- SEO: Улучшен alt текст -->
+                <img src="./images/4.webp" alt="Премиум пакет разработки полнофункционального сайта">
                 <div class="package-title">
                   <h3>Полный пакет</h3>
                   <p>Премиум пакет</p>
                 </div>
               </div>
               <div class="package-content">
-                <p>Комплексное решение со всеми функциями для максимального
-                  эффекта</p>
+                <p>Комплексное решение со всеми функциями для максимального эффекта</p>
                 <div class="package-price">
                   <span>24,000 ₽</span>
                   <span>разовый платеж</span>
@@ -184,81 +141,56 @@
                   <li>Визуализация рабочего процесса</li>
                   <li>Премиальные элементы дизайна и анимации</li>
                 </ul>
-                <button class="btn btn-secondary">Хочу такой сайт</button>
+                <button class="btn btn-secondary" data-modal-toggle="contact-modal" data-package="premium">Хочу такой сайт</button>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <!-- ======================= FAQ Section ======================= -->
       <section id="faq" class="faq">
         <div class="container">
           <h2>Часто задаваемые вопросы (ЧаВо)</h2>
           <div class="faq-grid">
             <div class="faq-item">
               <h3>Какие сроки разработки сайта?</h3>
-              <p>Сроки разработки зависят от выбранного пакета и сложности
-                проекта. Базовый сайт обычно готов в течение 1-2 недель, более
-                комплексные проекты могут занять от 3 до 6 недель. Мы всегда
-                обсуждаем реалистичные сроки на начальном этапе.</p>
+              <p>Сроки разработки зависят от выбранного пакета и сложности проекта. Базовый сайт обычно готов в течение 1-2 недель, более комплексные проекты могут занять от 3 до 6 недель. Мы всегда обсуждаем реалистичные сроки на начальном этапе.</p>
             </div>
             <div class="faq-item">
               <h3>Входит ли в стоимость поддержка сайта?</h3>
-              <p>Первоначальная настройка и запуск сайта включены во все пакеты.
-                Дальнейшая техническая поддержка и обновления могут быть
-                предоставлены по отдельному договору или в рамках расширенных
-                пакетов. Мы предлагаем гибкие варианты поддержки.</p>
+              <p>Первоначальная настройка и запуск сайта включены во все пакеты. Дальнейшая техническая поддержка и обновления могут быть предоставлены по отдельному договору или в рамках расширенных пакетов. Мы предлагаем гибкие варианты поддержки.</p>
             </div>
             <div class="faq-item">
               <h3>Могу ли я самостоятельно редактировать контент на сайте?</h3>
-              <p>Да, в большинстве случаев мы интегрируем простую и интуитивно
-                понятную систему управления контентом (CMS), которая позволит
-                вам легко обновлять тексты, изображения и другие материалы без
-                специальных технических навыков.</p>
+              <p>Да, в большинстве случаев мы интегрируем простую и интуитивно понятную систему управления контентом (CMS), которая позволит вам легко обновлять тексты, изображения и другие материалы без специальных технических навыков.</p>
             </div>
             <div class="faq-item">
               <h3>Что такое "быстрые и легкие" сайты?</h3>
-              <p>Это означает, что наши сайты оптимизированы для быстрой
-                загрузки на любых устройствах и имеют чистый, не перегруженный
-                код. Это улучшает пользовательский опыт и положительно влияет на
-                SEO-показатели.</p>
+              <p>Это означает, что наши сайты оптимизированы для быстрой загрузки на любых устройствах и имеют чистый, не перегруженный код. Это улучшает пользовательский опыт и положительно влияет на SEO-показатели.</p>
             </div>
             <div class="faq-item">
               <h3>Помогаете ли вы с наполнением сайта контентом?</h3>
-              <p>Мы можем помочь с базовым наполнением контентом,
-                предоставленным вами. Услуги профессионального копирайтинга или
-                создания уникального графического контента обсуждаются отдельно
-                и могут быть включены в проект по вашему желанию.</p>
+              <p>Мы можем помочь с базовым наполнением контентом, предоставленным вами. Услуги профессионального копирайтинга или создания уникального графического контента обсуждаются отдельно и могут быть включены в проект по вашему желанию.</p>
             </div>
             <div class="faq-item">
               <h3>Предоставляете ли вы услуги SEO-продвижения?</h3>
-              <p>Базовая SEO-оптимизация (техническая оптимизация, правильная
-                структура, мета-теги) включена во все пакеты. Комплексное
-                SEO-продвижение в поисковых системах – это отдельная услуга,
-                которую мы также можем предложить.</p>
+              <p>Базовая SEO-оптимизация (техническая оптимизация, правильная структура, мета-теги) включена во все пакеты. Комплексное SEO-продвижение в поисковых системах – это отдельная услуга, которую мы также можем предложить.</p>
             </div>
           </div>
         </div>
       </section>
-      <!-- ======================= End FAQ Section ======================= -->
 
       <section id="contact" class="contact">
         <div class="container">
           <div class="contact-grid">
             <div class="contact-info">
               <h2>Готовы начать работу?</h2>
-              <p>Свяжитесь с нами сегодня, чтобы обсудить требования вашего
-                проекта. Наша команда готова помочь вам создать идеальный сайт
-                для вашего бизнеса.</p>
+              <p>Свяжитесь с нами сегодня, чтобы обсудить требования вашего проекта. Наша команда готова помочь вам создать идеальный сайт для вашего бизнеса.</p>
 
               <div class="contact-methods">
                 <div class="contact-method">
                   <div class="icon-circle">
-                    <img
-                      src="./images/mail.svg"
-                      alt="Иконка электронной почты">
-                    <!-- SEO: Улучшен alt текст -->
+                    <img src="./images/mail.svg" alt="Иконка электронной почты">
                   </div>
                   <div>
                     <h3>Напишите нам</h3>
@@ -269,9 +201,7 @@
 
                 <div class="contact-method">
                   <div class="icon-circle">
-                    <img
-                      src="./images/message-square.svg"
-                      alt="Иконка чата"> <!-- SEO: Улучшен alt текст -->
+                    <img src="./images/message-square.svg" alt="Иконка чата">
                   </div>
                   <div>
                     <h3>Напишите в чат</h3>
@@ -286,20 +216,15 @@
               <h3>Отправьте нам сообщение</h3>
               <div class="form-group">
                 <label for="name">Ваше имя</label>
-                <input type="text" id="name" name="name"
-                  placeholder="Иван Иванов" required>
-                <!-- SEO: Добавлен 'name' и 'required' -->
+                <input type="text" id="name" name="name" placeholder="Иван Иванов" required>
               </div>
               <div class="form-group">
                 <label for="email">Адрес электронной почты</label>
-                <input type="email" id="email" name="email"
-                  placeholder="john@example.com" required>
-                <!-- SEO: Добавлен 'name' и 'required' -->
+                <input type="email" id="email" name="email" placeholder="john@example.com" required>
               </div>
               <div class="form-group">
                 <label for="package">Интересующий пакет</label>
                 <select id="package" name="package">
-                  <!-- SEO: Добавлен 'name' -->
                   <option value>Выберите пакет</option>
                   <option value="essential">Базовый - 10,000 ₽</option>
                   <option value="standard">Стандартный - 18,000 ₽</option>
@@ -309,17 +234,46 @@
               </div>
               <div class="form-group">
                 <label for="message">Ваше сообщение</label>
-                <textarea id="message" name="message" rows="4"
-                  placeholder="Расскажите о вашем проекте..."
-                  required></textarea>
-                <!-- SEO: Добавлен 'name' и 'required' -->
+                <textarea id="message" name="message" rows="4" placeholder="Расскажите о вашем проекте..." required></textarea>
               </div>
-              <button type="submit" class="btn btn-primary">Отправить
-                сообщение</button>
+              <button type="submit" class="btn btn-primary">Отправить сообщение</button>
             </form>
           </div>
         </div>
       </section>
+
+      <!-- Модальное окно для связи -->
+      <div id="contact-modal" class="modal" role="dialog" aria-labelledby="modal-title" aria-hidden="true">
+        <div class="modal-content">
+          <button class="modal-close" aria-label="Закрыть модальное окно">&times;</button>
+          <h2 id="modal-title">Свяжитесь с нами</h2>
+          <form class="modal-form">
+            <div class="form-group">
+              <label for="modal-name">Ваше имя</label>
+              <input type="text" id="modal-name" name="name" placeholder="Иван Иванов" required>
+            </div>
+            <div class="form-group">
+              <label for="modal-email">Адрес электронной почты</label>
+              <input type="email" id="modal-email" name="email" placeholder="john@example.com" required>
+            </div>
+            <div class="form-group">
+              <label for="modal-package">Интересующий пакет</label>
+              <select id="modal-package" name="package">
+                <option value>Выберите пакет</option>
+                <option value="essential">Базовый - 10,000 ₽</option>
+                <option value="standard">Стандартный - 18,000 ₽</option>
+                <option value="premium">Полный - 24,000 ₽</option>
+                <option value="custom">Индивидуальные требования</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="modal-message">Ваше сообщение</label>
+              <textarea id="modal-message" name="message" rows="4" placeholder="Расскажите о вашем проекте..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Отправить сообщение</button>
+          </form>
+        </div>
+      </div>
     </main>
 
     <footer class="footer">
@@ -327,14 +281,10 @@
         <div class="footer-grid">
           <div class="footer-about">
             <div class="logo">
-              <img
-                src="./images/logo.svg"
-                alt="Логотип WebCraft в футере" class="logo-icon">
-              <!-- SEO: Улучшен alt текст -->
+              <img src="./images/logo.svg" alt="Логотип WebCraft в футере" class="logo-icon">
               <span class="logo-text">WebCraft</span>
             </div>
-            <p>Быстрая и легкая разработка сайтов: профессиональное качество и
-              молниеносная реализация.</p>
+            <p>Быстрая и легкая разработка сайтов: профессиональное качество и молниеносная реализация.</p>
           </div>
 
           <div class="footer-links">
@@ -361,22 +311,15 @@
             <h3>Контакты</h3>
             <ul>
               <li>
-                <img
-                  src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/phone.svg"
-                  alt="Иконка телефона"> <!-- SEO: Улучшен alt текст -->
+                <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/phone.svg" alt="Иконка телефона">
                 <span>+7 (999) 123-4567</span>
               </li>
               <li>
-                <img
-                  src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/mail.svg"
-                  alt="Иконка электронной почты для контактов">
-                <!-- SEO: Улучшен alt текст -->
+                <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/mail.svg" alt="Иконка электронной почты для контактов">
                 <span>info@webcraft.com</span>
               </li>
               <li>
-                <img
-                  src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/map-pin.svg"
-                  alt="Иконка местоположения"> <!-- SEO: Улучшен alt текст -->
+                <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/map-pin.svg" alt="Иконка местоположения">
                 <span>Москва, Россия</span>
               </li>
             </ul>
@@ -388,5 +331,6 @@
         </div>
       </div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
